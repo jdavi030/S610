@@ -1,0 +1,35 @@
+Changes to be committed:
+ (use "git rm --cached <file>..." to unstage)
+new file: benchmark_llr.R
+new file: llr_function.r
+new file: test_llr.R
+HP@DESKTOP-GHKE6KK MINGW64 #~/Desktop/S610_Fall_2020_Local/git/myHW5 (main)
+$ git commit -m ’initial commit’
+[main (root-commit) 3a9959c] initial commit
+ 3 files changed, 3 insertions(+)
+ create mode 100644 benchmark_llr.R
+ create mode 100644 llr_function.r
+ create mode 100644 test_llr.R
+ HP@DESKTOP-GHKE6KK MINGW64 ~/Desktop/S610_Fall_2020_Local/git/myHW5 (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+HP@DESKTOP-GHKE6KK MINGW64 ~/Desktop/S610_Fall_2020_Local/git/myHW5 (main)
+$ git log
+commit 3a9959c2e00ea3922f7dd0ec6063f72a651afc62 (HEAD -> main)
+Author: Jasmine Davis <jld8@indiana.edu>
+Date: Fri Oct 23 20:59:29 2020 -0400
+ initial commit
+ 
+ HP@DESKTOP-GHKE6KK MINGW64 ~/Desktop/S610_Fall_2020_Local/git/myHW5 (main)
+$ git branch speed-test-1
+HP@DESKTOP-GHKE6KK MINGW64 ~/Desktop/S610_Fall_2020_Local/git/myHW5 (main)
+$ git branch
+* main
+speed-test-1
+HP@DESKTOP-GHKE6KK MINGW64 ~/Desktop/S610_Fall_2020_Local/git/myHW5 (main)
+$ git log
+commit 3a9959c2e00ea3922f7dd0ec6063f72a651afc62 (HEAD -> main, speed-test-1)
+Author: Jasmine Davis <jld8@indiana.edu>
+Date: Fri Oct 23 20:59:29 2020 -0400
+ initial commit
